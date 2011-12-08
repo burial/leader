@@ -39,7 +39,8 @@ function mod:FRIENDLIST_UPDATE()
   wipe(friends)
 
   for index = 1, GetNumFriends() do
-    friends[ GetFriendInfo(index) ] = true
+    local name, _, _, _, online = GetFriendInfo(index)
+    friends[ name ] = online
   end
 
   return true
