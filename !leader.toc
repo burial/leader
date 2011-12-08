@@ -1,0 +1,7 @@
+## Interface: 40300
+## Title: !leader
+## Notes: tbi
+## Author: burial
+## Version: 1
+
+main.lua
